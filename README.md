@@ -1,2 +1,2 @@
 # DependencyInjectionDemo
-Small Project to help teach dependency injection 101
+Small project to help teach dependency injection 101.

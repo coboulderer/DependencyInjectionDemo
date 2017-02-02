@@ -20,6 +20,6 @@ public class HelloController {
     @RequestMapping(method = RequestMethod.GET)
     public ResponseEntity<String> sayHello() {
     	helloService = new HelloServiceImplOne();
-        return ResponseEntity.status(HttpStatus.OK).body(helloService.sayHello() + helloService.notExpostedByTheInterface());
+        return ResponseEntity.status(HttpStatus.OK).body(helloService.sayHello() + helloService.notExposedByTheInterface());
     }
 }

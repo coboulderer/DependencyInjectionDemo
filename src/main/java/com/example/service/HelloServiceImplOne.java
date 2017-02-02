@@ -13,7 +13,7 @@ public class HelloServiceImplOne implements HelloService {
         return "Hello from HelloServiceImplOne!\n";
     }
 
-    public String notExpostedByTheInterface() {
+    public String notExposedByTheInterface() {
     	return "I am not exposed by the interface!!";
     }
 }
